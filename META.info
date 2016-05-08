@@ -1,0 +1,10 @@
+{
+  "name"          : "Clean",
+  "version"       : "*",
+  "perl"          : "6.c",
+  "description"   : "Cleans your objects",
+  "depends"       : [ ],
+  "test-depends"  : [ "Test", "Test::META" ],
+  "provides"      : { "Clean" : "lib/Clean.pm6" },
+  "source-url"    : "git://github.com/azawawi/perl6-clean.git"
+}
