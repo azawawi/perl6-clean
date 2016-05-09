@@ -40,6 +40,11 @@ To run tests:
 $ prove -e "perl6 -Ilib"
 ```
 
+To run author tests:
+```
+$ TEST_AUTHOR=1 prove -e "perl6 -Ilib"
+```
+
 ## Author
 
 Ahmad M. Zawawi, azawawi on #perl6, https://github.com/azawawi/
