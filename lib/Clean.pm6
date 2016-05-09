@@ -10,7 +10,7 @@ module Clean {
 
   sub clean( Cleanable $o, &block ) is export {
     &block($o) if &block.defined;
-    $o.clean if $o.defined;
+    $o.clean   if $o.defined;
   }
 }
 
