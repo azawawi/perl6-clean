@@ -18,7 +18,7 @@ module Clean {
 
 =head1 NAME
 
-Clean - Cleans yours objects
+Clean - Scoped object oriented automatic cleanup
 
 =head1 SYNOPSIS
 
