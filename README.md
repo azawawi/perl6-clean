@@ -48,7 +48,9 @@ To run tests:
 $ prove -e "perl6 -Ilib"
 ```
 
-To run author tests:
+To run author tests (you need to manually install [Test::META](
+https://github.com/jonathanstowe/Test-META):
+
 ```
 $ TEST_AUTHOR=1 prove -e "perl6 -Ilib"
 ```
