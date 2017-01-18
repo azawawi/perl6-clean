@@ -33,11 +33,10 @@ clean(
 
 ## Installation
 
-To install it using Panda (a module management tool bundled with Rakudo Star):
+To install it using zef (a module management tool bundled with Rakudo Star):
 
 ```
-$ panda update
-$ panda install Clean
+$ zef install Clean
 ```
 
 ## Testing
